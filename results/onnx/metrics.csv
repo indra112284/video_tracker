@@ -1,0 +1,9 @@
+metric,value
+model,YOLO11m ONNX
+total_frames,998
+total_inference_time_seconds,784.8984
+average_inference_time_ms,786.4714
+fps,1.2715
+average_confidence,0.7287
+minimum_confidence,0.25
+maximum_confidence,0.9318

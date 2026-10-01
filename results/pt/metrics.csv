@@ -1,0 +1,9 @@
+metric,value
+model,YOLO11m PT
+total_frames,998
+total_inference_time_seconds,687.2645
+average_inference_time_ms,688.6418
+fps,1.4521
+average_confidence,0.7178
+minimum_confidence,0.2501
+maximum_confidence,0.9297

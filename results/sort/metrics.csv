@@ -1,0 +1,8 @@
+metric,value
+model,YOLO11m + SORT
+total_frames,998
+unique_track_ids,79
+total_inference_time_seconds,687.9675
+average_inference_time_ms,689.3462
+average_processing_time_ms,713.5793
+tracking_fps,1.4014
