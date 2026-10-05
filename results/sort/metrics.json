@@ -1,31 +1,54 @@
 {
-    "model": "YOLO11m + SORT",
-    "video": "video/PNNL_Parking_LOT(1).avi",
-    "total_processing_time_seconds": 662.1746,
-    "average_fps": 1.5072,
-    "average_latency_ms": 663.5016,
-    "p95_latency_ms": 730.8158,
-    "total_frames": 998,
-    "total_detections": 13053,
-    "unique_track_ids": 79,
-    "average_active_tracks": 12.8838,
-    "maximum_active_tracks": 19,
-    "average_track_lifetime_frames": 172.1899,
-    "longest_track_lifetime_frames": 794,
-    "id_switches": null,
-    "id_switches_note": "Not calculated because ground-truth identity annotations are not available.",
-    "potential_track_losses": 234,
-    "average_cpu_percent": 79.8377,
-    "peak_cpu_percent": 100.0,
-    "average_ram_mb": 561.7037,
-    "peak_ram_mb": 592.4844,
-    "gpu_available": false,
-    "gpu_name": "Not Available",
-    "average_gpu_percent": null,
-    "peak_gpu_percent": null,
-    "peak_gpu_memory_mb": null,
-    "output_video_size_mb": 50.8387,
-    "output_video": "results/sort\\sort_tracking.mp4",
-    "tracking_csv": "results/sort\\tracking_results.csv",
-    "log_file": "results/sort\\tracking.log"
+    "project": {
+        "name": "YOLO11m + SORT Object Tracking",
+        "tracker": "SORT"
+    },
+    "model": {
+        "name": "YOLO11m",
+        "format": "pt",
+        "path": "C:\\Users\\IndrasenaChittiboina\\Desktop\\Video_Tracker\\models\\yolo11m.pt"
+    },
+    "configuration": {
+        "confidence_threshold": 0.25,
+        "iou_threshold": 0.3,
+        "tracker_config": "SORT",
+        "device": "CPU"
+    },
+    "video": {
+        "input": "C:\\Users\\IndrasenaChittiboina\\Desktop\\Video_Tracker\\video\\PNNL_Parking_LOT(1).avi",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.0,
+        "total_frames": 998
+    },
+    "tracking_statistics": {
+        "frame_count": 998,
+        "total_detections": 13053,
+        "unique_track_ids": 79,
+        "average_active_tracks": 12.8837675351,
+        "maximum_active_tracks": 19,
+        "average_track_lifetime": 172.1898734177,
+        "longest_track_lifetime": 794,
+        "average_fps": 1.3627637048,
+        "average_latency_ms": 733.8029303572,
+        "p95_latency_ms": 906.547105033,
+        "total_processing_time_seconds": 732.3353244965
+    },
+    "resources": {
+        "process": {
+            "average_cpu_percent": 275.8094188377,
+            "peak_cpu_percent": 305.3,
+            "average_ram_mb": 567.6454119176,
+            "peak_ram_mb": 594.40625
+        },
+        "system": {
+            "average_cpu_percent": 83.3152304609,
+            "peak_cpu_percent": 100.0
+        }
+    },
+    "outputs": {
+        "video": "C:\\Users\\IndrasenaChittiboina\\Desktop\\Video_Tracker\\results\\sort\\sort_tracking.mp4",
+        "json": "C:\\Users\\IndrasenaChittiboina\\Desktop\\Video_Tracker\\results\\sort\\metrics.json",
+        "log": "C:\\Users\\IndrasenaChittiboina\\Desktop\\Video_Tracker\\results\\sort\\tracking.log"
+    }
 }
