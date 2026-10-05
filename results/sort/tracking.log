@@ -1,0 +1,29 @@
+2026-10-01 15:22:42,797 - INFO - SORT tracking started
+2026-10-01 15:22:43,011 - INFO - YOLO11m model loaded
+2026-10-01 15:22:43,012 - INFO - SORT tracker created
+2026-10-01 15:23:18,012 - INFO - Processed 50/998 frames
+2026-10-01 15:23:50,298 - INFO - Processed 100/998 frames
+2026-10-01 15:24:25,151 - INFO - Processed 150/998 frames
+2026-10-01 15:24:57,882 - INFO - Processed 200/998 frames
+2026-10-01 15:25:30,308 - INFO - Processed 250/998 frames
+2026-10-01 15:26:03,144 - INFO - Processed 300/998 frames
+2026-10-01 15:26:36,154 - INFO - Processed 350/998 frames
+2026-10-01 15:27:08,580 - INFO - Processed 400/998 frames
+2026-10-01 15:27:41,170 - INFO - Processed 450/998 frames
+2026-10-01 15:28:13,969 - INFO - Processed 500/998 frames
+2026-10-01 15:28:47,664 - INFO - Processed 550/998 frames
+2026-10-01 15:29:21,821 - INFO - Processed 600/998 frames
+2026-10-01 15:29:56,157 - INFO - Processed 650/998 frames
+2026-10-01 15:30:31,356 - INFO - Processed 700/998 frames
+2026-10-01 15:31:05,393 - INFO - Processed 750/998 frames
+2026-10-01 15:31:41,309 - INFO - Processed 800/998 frames
+2026-10-01 15:32:14,904 - INFO - Processed 850/998 frames
+2026-10-01 15:32:48,212 - INFO - Processed 900/998 frames
+2026-10-01 15:33:21,471 - INFO - Processed 950/998 frames
+2026-10-01 15:33:53,093 - INFO - SORT tracking completed
+2026-10-01 15:33:53,094 - INFO - Total frames: 998
+2026-10-01 15:33:53,094 - INFO - Total detections: 13053
+2026-10-01 15:33:53,094 - INFO - Unique track IDs: 79
+2026-10-01 15:33:53,094 - INFO - Average FPS: 1.5072
+2026-10-01 15:33:53,094 - INFO - Average latency: 663.5016 ms
+2026-10-01 15:33:53,094 - INFO - P95 latency: 730.8158 ms
